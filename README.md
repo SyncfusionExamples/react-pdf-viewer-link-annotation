@@ -121,15 +121,6 @@ Click the link rectangle. The viewer immediately jumps to the configured target 
 
 ---
 
-## Customizing the Demo
-
-- **Load a different PDF** — change the `documentPath` prop on `PdfViewerComponent`. You can also drop a file into `public/` and reference it as `documentPath="your-file.pdf"`.
-- **Change the resource URL** — point `resourceUrl` to the version of `ej2-pdfviewer-lib` that matches the package you installed.
-- **Adjust height** — update the `style={{ height: '640px' }}` value (or convert it to a CSS class).
-- **Enable more services** — add or remove entries in the `services` array passed to `<Inject />`. The full list includes `Toolbar`, `Magnification`, `Navigation`, `Annotation`, `LinkAnnotation`, `BookmarkView`, `ThumbnailView`, `Print`, `TextSelection`, `TextSearch`, `FormFields`, `FormDesigner`, and `PageOrganizer`.
-
----
-
 ## References
 
 - [Syncfusion EJ2 React PDF Viewer — official documentation](https://ej2.syncfusion.com/react/documentation/pdfviewer/getting-started/)
